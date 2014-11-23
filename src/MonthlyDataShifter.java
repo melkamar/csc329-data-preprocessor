@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class MonthlyDataShifter {
     public static void shiftToNextMonday(ArrayList<TransformSource> sources) {
-        String dir = System.getProperty("user.dir") + "/../data/";
+        String dir = System.getProperty("user.dir") + "/data/";
 
         System.out.println("--------------------------------------------");
         System.out.println("     S H I F T I N G   ");

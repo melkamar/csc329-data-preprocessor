@@ -46,7 +46,7 @@ public class Transformer {
     }
 
     private static int transformDatasource(String filename, int numberOfSamples, int dayOfWeek, TransformSource source) throws IOException {
-        String fn = System.getProperty("user.dir") + "/../data/" + filename;
+        String fn = System.getProperty("user.dir") + "/data/" + filename;
 
         FileInputStream fileInputStream = new FileInputStream(fn);
         String[] lines = splitDataSource(fileInputStream, numberOfSamples, dayOfWeek, source);

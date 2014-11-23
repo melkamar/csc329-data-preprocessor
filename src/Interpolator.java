@@ -16,7 +16,7 @@ public class Interpolator {
     private static int linesWritten = 0;
 
     public static int interpolateData(ArrayList<TransformSource> sources, int dataFrequency) {
-        String dir = System.getProperty("user.dir") + "/../data/";
+        String dir = System.getProperty("user.dir") + "/data/";
 
         System.out.println("--------------------------------------------");
         System.out.println("     I N T E R P O L A T I O N   ");
